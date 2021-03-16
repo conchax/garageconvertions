@@ -1,0 +1,146 @@
+@font-face {
+  font-family: "MS Reference Sans Serif";
+  src: url("../fonts/ms-reference-sans-serif.eot"),
+    url("../fonts/ms-reference-sans-serif.svg"),
+    url("../fonts/ms-reference-sans-serif.ttf"),
+    url("../fonts/ms-reference-sans-serif.woff");
+}
+body {
+  background-color: #ededed;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #1d1d1b;
+}
+.menu-media {
+  margin: 0 auto;
+  margin-right: inherit;
+}
+nav a.nav-link {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 22px;
+  text-transform: uppercase;
+  font-family: "MS Reference Sans Serif", sans-serif;
+}
+.navbar-light .navbar-toggler {
+  color: rgba(0, 0, 0, 0.5);
+  border-color: transparent !important;
+}
+.bg-light {
+  background-color: rgba(248, 249, 250, 0.7) !important;
+}
+
+.home {
+  margin-top: 120px;
+}
+.home h2 {
+  font-family: "MS Reference Sans Serif", sans-serif;
+  font-size: 26px;
+  line-height: 28px;
+}
+.garage {
+  margin-top: 3em;
+}
+.mibtn {
+  background-color: #4b6a8d;
+  color: #ededed;
+  font-family: "MS Reference Sans Serif", sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  border-radius: 20px;
+  padding: 1em;
+}
+.parrafo {
+  min-height: 180px;
+  margin-bottom: 3em;
+}
+.step h2 {
+  font-size: 18px;
+  color: #1d1d1b;
+  font-family: "MS Reference Sans Serif", sans-serif;
+}
+.step li {
+  text-align: left;
+}
+footer {
+  background-color: #1d1d1b;
+  color: #ededed;
+  margin-top: 2em;
+}
+footer h2 {
+  font-size: 18px;
+  font-family: "MS Reference Sans Serif", sans-serif;
+  text-transform: uppercase;
+  margin-top: 2em;
+  text-align: center;
+}
+footer li {
+  list-style: none;
+}
+footer img {
+  padding: 2em;
+  width: 300px;
+}
+footer a {
+  color: #ededed;
+}
+footer a:hover {
+  color: #4b6a8d;
+  text-decoration: none;
+}
+
+.dropdown-menu li.nav-item {
+  line-height: 2em;
+  width: 150px;
+}
+.navbb {
+  flex-direction: row;
+}
+.dropdown-menu {
+  background-color: transparent;
+  border: 0;
+}
+.shadow {
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.4) !important;
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.4) !important;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.4) !important;
+}
+.service {
+  /* height: auto; */
+  background-image: url("../img/portadaService.png");
+  min-height: 320px;
+  /* background-attachment: fixed; */
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+  margin-bottom: 10px;
+  background-size: cover;
+}
+.option {
+  background-image: url("../img/tips.jpg");
+  min-height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.contac {
+  min-height: 320px;
+  background-image: url("../img/header-Contact-us.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.form {
+  margin: 4em 0;
+}
+
+.my-fixed-item {
+  position: fixed;
+  min-height: 250px;
+  width: 50px;
+  text-align: center;
+  word-wrap: break-word;
+  top: 200px;
+  right: 20px;
+  z-index: 30000;
+}
